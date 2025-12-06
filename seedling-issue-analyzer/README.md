@@ -1,4 +1,4 @@
-# Seedling Issue Analyzer 🌱
+# Seedling Issue Analyzer
 
 A lightweight web app to triage GitHub issues using an LLM.
 
@@ -44,11 +44,11 @@ A lightweight web app to triage GitHub issues using an LLM.
 8. Visit http://localhost:8501
 
 ## Security Features
-- ✅ Rate limiting (10 requests/min)
-- ✅ Input validation and sanitization
-- ✅ Secure CORS configuration
-- ✅ Comprehensive error handling
-- ✅ No API keys in code
+-  Rate limiting (10 requests/min)
+-  Input validation and sanitization
+-  Secure CORS configuration
+-  Comprehensive error handling
+-  No API keys in code
 
 ## Configuration
 
@@ -57,4 +57,5 @@ Edit `.env` to customize:
 - `GITHUB_TOKEN`: Optional, increases rate limits
 
 ## License
+
 MIT
