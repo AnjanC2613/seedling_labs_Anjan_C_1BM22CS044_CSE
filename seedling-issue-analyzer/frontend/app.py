@@ -12,7 +12,7 @@ st.set_page_config(
     layout="centered",
 )
 
-st.title("🌱 Seedling Labs – GitHub Issue Analyzer")
+st.title("Seedling Labs – GitHub Issue Analyzer")
 
 st.markdown(
     """
@@ -25,7 +25,7 @@ with st.form("issue_form"):
     default_repo = "https://github.com/facebook/react"
     repo_url = st.text_input("GitHub Repository URL", value=default_repo)
     issue_number = st.number_input("Issue Number", min_value=1, step=1, value=1)
-    submitted = st.form_submit_button("Analyze Issue 🚀")
+    submitted = st.form_submit_button("Analyze Issue")
 
 if submitted:
     if not repo_url:
@@ -100,3 +100,4 @@ if submitted:
 st.caption(
     "Tip: Configure OPENAI_API_KEY and optional GITHUB_TOKEN as env vars before running."
 )
+
